@@ -44,4 +44,4 @@ The project has estructured as following:
 
 1. Download the environment and put in the envs location.
 2. Change the path ```code/config.py```  if your operative system is different than Linux.
-3. Use ```jupyter notebook``` to view both projects. Or execute ``` python ./code/DDPG.py```.
+3. Use ```jupyter notebook``` to view both projects. Or execute ``` python DDPG.py```.
