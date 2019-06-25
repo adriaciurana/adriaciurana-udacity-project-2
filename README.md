@@ -12,7 +12,7 @@ In the first instance, we should try to formalize the problem proposed in one of
 | ------------- | ------------------------------------------------------------ |
 | **state**     | A set of 33 sensors that describe the information of the current state. |
 | **actions**   | A set of 4 continuous actions.                               |
-| **reward**    | +0.1 if the agent hand the sphere.                           |
+| **reward**    | +0.1 if the agent follow a sphere.                           |
 
 Once the problem is defined, we must remember that an RL problem is simply a **maximization problem.** In contrast the previous project, in this case we use a maximization problem that combine: Actor-Network and Critic-Network.
 
