@@ -29,6 +29,7 @@ The project has estructured as following:
   - **agent.py**: Definition of the used agent.
   - **config.py**: Configuration of paths, pytorch device and hyperparameters.
   - **model.py**: Network architectures.
+- *DDPG.py*: Pythin script to train an agent (similar than notebook). 
 - *doc*: additional images, etc for readme.
 - *envs*: location of the used environments.
   - *one*
