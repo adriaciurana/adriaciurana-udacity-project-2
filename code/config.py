@@ -31,9 +31,10 @@ class Config:
 	SELECTED_ENV = 'twenty'
 
 	BUFFER_SIZE = int(1e6)  # replay buffer size
-	BATCH_SIZE = 1024        # minibatch size
+	BATCH_SIZE = 5000       # minibatch size
 	GAMMA = 0.99            # discount factor
 	TAU = 1e-3              # for soft update of target parameters
 	LR_ACTOR = 1e-4         # learning rate of the actor 
 	LR_CRITIC = 1e-3        # learning rate of the critic
 	WEIGHT_DECAY = 0        # L2 weight decay
+	LEARN_INTERVAL = None     # Interval of learning, for continuous put None or 1
