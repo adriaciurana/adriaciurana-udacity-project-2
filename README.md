@@ -2,7 +2,7 @@
 
 ### Introduction
 
-In this project it is proposed to use an autonomous agent for use our arm to follow an sphere. A difference of A2C Actor-Critic, this problem has an continuous state and actions. For this reason is a better approach use **Continous Actor-Critic** family like: DDPG.
+In this project it is proposed to use an autonomous agent for use our arm to follow an sphere. A difference of A2C Actor-Critic, this problem has an continuous state and actions. For this reason is a better approach use **Continuous Actor-Critic** family like: DDPG.
 
 ![Reacher Project](doc/reacher.png)
 
