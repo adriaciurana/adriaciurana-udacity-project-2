@@ -6,7 +6,7 @@ import numpy as np
 from collections import deque
 import matplotlib.pyplot as plt
 
-from . import Agent, Config
+from code import Agent, Config
 from unityagents import UnityEnvironment
 
 # Check selected env
