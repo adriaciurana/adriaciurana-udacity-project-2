@@ -42,7 +42,7 @@ The project has estructured as following:
   - *twenty*
   
 ### Download Environment
-For the correct operation of the program, you must download the environment where the agent will move. Both agents are valid. And you can choose which option by configuring the parameters in ```Config.py -> SELECT_ENV````.
+For the correct operation of the program, you must download the environment where the agent will move. Both agents are valid. And you can choose which option by configuring the parameters in ```Config.py -> SELECT_ENV```.
     - **_Version 1: One (1) Agent_**
         - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
         - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
