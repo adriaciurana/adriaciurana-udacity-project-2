@@ -40,6 +40,22 @@ The project has estructured as following:
 - *models*: saved final models:
   - *one*
   - *twenty*
+  
+### Download Environment
+For the correct operation of the program, you must download the environment where the agent will move. Both agents are valid. And you can choose which option by configuring the parameters in ```Config.py -> SELECT_ENV````.
+    - **_Version 1: One (1) Agent_**
+        - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+        - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+        - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+        - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+
+    - **_Version 2: Twenty (20) Agents_**
+        - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
+        - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
+        - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
+        - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
+    
+Once downloaded, you must save it in **envs/(one|twenty)** depending on the version. If the version is different from Linux, you must modify the config.py paths to read them properly.
 
 ### Getting Started
 
